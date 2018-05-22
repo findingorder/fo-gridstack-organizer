@@ -1,6 +1,6 @@
 {
     "name": "fo-gridstack-organizer",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "fo-gridstack-organizer is a Vue.js component that is a wrapper around the gridstack.js jQuery plugin.",
     "main": "fo-gridstack-organizer-bundle.js",
     "dependencies": {

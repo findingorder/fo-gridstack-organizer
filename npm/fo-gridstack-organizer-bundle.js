@@ -2229,7 +2229,7 @@ var foGridstackOrganizerMerged = {
 
         // Initialize styles.
 
-        this.initializeOuterDivStyles();
+        // this.initializeOuterDivStyles()
 
         // TODO: DO WE NEED THIS?
 

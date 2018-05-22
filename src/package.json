@@ -1,6 +1,6 @@
 {
   "name": "fo-gridstack-organizer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "VueJS component that can contain other VueJS components and organize them using Gridstack.",
   "main": "fo-gridstack-organizer.js",
   "scripts": {
