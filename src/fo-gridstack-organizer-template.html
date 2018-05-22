@@ -1,0 +1,31 @@
+<div :id='id' class='outer-div' ref='outerDiv'>
+
+    <!-- 
+    TODO: Make data-gs-animate into props. 
+    -->
+
+    <div id='border'>
+        <div class="grid-stack" data-gs-width="12" data-gs-animate="yes">
+
+            <!-- For some unknown reason, "v-for='item in items'" doesn't work, but iterating the array index does. -->
+
+            <fo-gridstack-item 
+                v-for='n in items.length' 
+                :key='items[n-1].id' 
+                v-bind:id='items[n-1].id'
+                v-bind:contentId='items[n-1].contentId'
+                v-bind:background='items[n-1].background' 
+                v-bind:content='items[n-1].content'
+                v-bind:dataGsX='items[n-1].dataGsX'
+                v-bind:dataGsY='items[n-1].dataGsY'
+                v-bind:dataGsWidth='items[n-1].dataGsWidth'
+                v-bind:dataGsHeight='items[n-1].dataGsHeight'
+            >
+            </fo-gridstack-item>
+    
+        </div>
+
+    </div>       
+    
+</div>
+

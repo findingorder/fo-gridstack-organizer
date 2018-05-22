@@ -1,0 +1,26 @@
+{
+  "name": "fo-gridstack-organizer",
+  "version": "0.0.0",
+  "description": "VueJS component that can contain other VueJS components and organize them using Gridstack.",
+  "main": "fo-gridstack-organizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "findingorder",
+  "license": "MIT",
+  "dependencies": {
+    "freelancer": "^0.1.7"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "jqueryui": "^1.11.1",
+    "lodash": "^4.17.10",
+    "rollup-plugin-commonjs": "^9.1.1",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.1",
+    "rollup-plugin-svg": "^1.0.1",
+    "rollup-plugin-vue": "^4.0.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

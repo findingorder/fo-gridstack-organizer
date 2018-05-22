@@ -1,0 +1,15 @@
+<div class='grid-stack-item'
+     v-bind:id='id'
+     v-bind:data-gs-x='dataGsX' 
+     v-bind:data-gs-y='dataGsY' 
+     v-bind:data-gs-width='dataGsWidth' 
+     v-bind:data-gs-height='dataGsHeight'
+     style='overflow: hidden;'
+>
+    <div class='grid-stack-item-content' ref='gridstackItemContent'
+        v-bind:id='contentId'
+        style='overflow: hidden;'
+    >
+        {{ content }}
+    </div>
+</div>

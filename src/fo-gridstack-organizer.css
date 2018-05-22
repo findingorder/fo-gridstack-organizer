@@ -1,0 +1,14 @@
+
+/* TODO: Parameterize the spacing between items, then programatically set #border's padding to match. */
+
+/* #border's only purpose is to make the outside frame the same width as the separation between items. */
+
+#border {
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    background-color: transparent;
+}

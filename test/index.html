@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>fo-gridstack-organizer Test</title>
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel='stylesheet' type='text/css'>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css' rel='stylesheet' type='text/css'>
+
+    <link href="./lib/gridstack-demo.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<!-- <body id="page-top" class="index" style="color: #AAA; background-color: rgb(44, 62, 80);"> -->
+
+<body>    
+
+    <div id="app">
+
+        <fo-gridstack-organizer v-bind:items='items'></fo-gridstack-organizer>
+
+        <!-- <button @click="onClick" style='margin-bottom: 10px;'>Insert a TestComponent</button> -->
+        <!-- <button @click="onClickStickyNote" style='margin-bottom: 10px;'>Insert a Sticky Note</button> -->
+
+        <!-- <div ref="container"></div> -->
+
+
+        <div style='height: 300px; width: 300px; max-height: 300px; max-width: 300px; background-color:teal;'>
+            <fo-sticky-note
+                id='FeeFieFoeFum'
+                note='How do you like this sticky note?'
+                note-title='Outside of the Gridstack'
+                background-color='#484848'
+            ></fo-sticky-note>
+        </div>
+    
+
+        <!-- <div id='snContainer' style='height: 300px; width: 300px; max-height: 300px; max-width: 300px; background-color:blueviolet;'> -->
+            <!-- <div id="snHere" ></div> -->
+        <!-- </div> -->
+                            
+    </div>
+
+    <!-- 
+    Best practice is to load all of the JavaScript libraries at the end of the <body>, just before
+    the closing </body> tag. 
+    -->
+
+    <!-- 
+    These dependencies are expected to be in any environment in which the component is used.
+    They are not bundled into our component.
+    -->
+
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='node_modules/jqueryui/jquery-ui.min.js'></script>
+    <script src='node_modules/lodash/lodash.min.js'></script>
+    <script src='node_modules/vue/dist/vue.min.js'></script>
+
+    <!-- 
+    These dependencies are specific to this test page.
+    -->
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+
+
+    <script type="module" src="index.es6.js"></script>
+
+</body>
+
+</html>

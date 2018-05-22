@@ -1,0 +1,22 @@
+{
+    "name": "fo-gridstack-organizer",
+    "version": "0.0.0",
+    "description": "fo-gridstack-organizer is a Vue.js component that is a wrapper around the gridstack.js jQuery plugin.",
+    "main": "fo-gridstack-organizer-bundle.js",
+    "dependencies": {
+      "jquery": "^3.3.1",
+      "jqueryui": "^1.11.1",
+      "lodash": "^4.17.5",
+      "vue": "^2.5.16"
+    },
+    "repository" : {
+      "type": "git",
+      "url": "https://github.com/findingorder/fo-gridstack-organizer"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "findingorder",
+    "license": "MIT"
+  }
+  

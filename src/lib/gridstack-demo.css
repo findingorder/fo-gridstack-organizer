@@ -1,0 +1,15 @@
+/* TODO: Make the following items props of <fo-gridstack-item>. */
+
+.grid-stack-item-content {
+    background: white;
+    color: #2c3e50;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-stack-item-content .fa {
+    font-size: 64px;
+    display: block;
+    margin: 20px 0 10px;
+}
